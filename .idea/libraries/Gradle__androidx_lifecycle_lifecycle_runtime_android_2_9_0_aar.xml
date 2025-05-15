@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime-android:2.9.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/cf21dd01d0a16ce7800029a932a6a5cb/transformed/lifecycle-runtime-release/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/cf21dd01d0a16ce7800029a932a6a5cb/transformed/lifecycle-runtime-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/cf21dd01d0a16ce7800029a932a6a5cb/transformed/lifecycle-runtime-release/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-android/2.9.0/124547d84780107b6bd19705570767d4040bec02/lifecycle-runtime-android-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

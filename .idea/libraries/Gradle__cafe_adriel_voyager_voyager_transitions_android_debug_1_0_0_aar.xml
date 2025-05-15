@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cafe.adriel.voyager:voyager-transitions-android-debug:1.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/d88d347fe1ae80df9c81b0355837727a/transformed/voyager-transitions-debug/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/d88d347fe1ae80df9c81b0355837727a/transformed/voyager-transitions-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/cafe.adriel.voyager/voyager-transitions-android-debug/1.0.0/53cd94c80e29c336ecc6a110598eab59db895ae3/voyager-transitions-android-debug-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/cafe.adriel.voyager/voyager-transitions-android-debug/1.0.0/fd7515a4cf26a2fdef26b9be8e45730361d1570d/voyager-transitions-android-debug-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

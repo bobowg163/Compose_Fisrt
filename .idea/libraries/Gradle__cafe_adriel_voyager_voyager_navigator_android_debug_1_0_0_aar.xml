@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cafe.adriel.voyager:voyager-navigator-android-debug:1.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fac2cc973316f68a1f2f0bdfc4ffa3fe/transformed/voyager-navigator-debug/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fac2cc973316f68a1f2f0bdfc4ffa3fe/transformed/voyager-navigator-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/cafe.adriel.voyager/voyager-navigator-android-debug/1.0.0/7b042d8d3f0767c0dcd79980f50f597a56260420/voyager-navigator-android-debug-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/cafe.adriel.voyager/voyager-navigator-android-debug/1.0.0/cd7903dd1d11bd42d3d1b57b66320e5f7e862ee9/voyager-navigator-android-debug-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
