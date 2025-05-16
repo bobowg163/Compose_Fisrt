@@ -7,7 +7,6 @@
 1. AnimationScreen 基础动画
 2. CanvasExplame Canvas画布动画
 3. LaunchedEffect Compose 中的附带效应
-    1. 媒体控件
 
 | 图像的        |         媒体播放 |
                        |:-----------|-------------:|
