@@ -41,6 +41,7 @@ import com.example.composefisrt.ui.Media3Explay
 import com.example.composefisrt.ui.MyViewModelScreen
 import com.example.composefisrt.ui.NavigateExample
 import com.example.composefisrt.ui.ProfileScreen
+import com.example.composefisrt.ui.RatingScreen
 import com.example.composefisrt.ui.ScaffoldBottom
 import com.example.composefisrt.ui.VoyagerNavigate
 import com.example.composefisrt.ui.theme.ComposeFirstTheme
@@ -57,42 +58,45 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     val navHostController = rememberNavController()
-                    NavHost(navHostController,startDestination = "home_screen"){
-                        composable("home_screen"){
+                    NavHost(navHostController, startDestination = "home_screen") {
+                        composable("home_screen") {
                             HomeScreen(navHostController)
                         }
-                        composable("lazy_row_screen"){
+                        composable("lazy_row_screen") {
                             LazyRowScreen()
                         }
-                        composable("lazy_column_screen"){
+                        composable("lazy_column_screen") {
                             LazyColumnScreen()
                         }
-                        composable("lazy_grid_screen"){
+                        composable("lazy_grid_screen") {
                             LazyGridScreen()
                         }
-                        composable("scaffold_bottom"){
+                        composable("scaffold_bottom") {
                             ScaffoldBottom()
                         }
-                        composable("window_size_screen"){
+                        composable("window_size_screen") {
                             ProfileScreen()
                         }
-                        composable("my_viewmodel"){
+                        composable("my_viewmodel") {
                             MyViewModelScreen()
                         }
-                        composable("animation_screen"){
+                        composable("animation_screen") {
                             AnimationScreen()
                         }
-                        composable("canvas_screen"){
+                        composable("canvas_screen") {
                             CanvasExample()
                         }
-                        composable("navigate_screen"){
+                        composable("navigate_screen") {
                             NavigateExample()
                         }
-                        composable("media3_screen"){
+                        composable("media3_screen") {
                             Media3Explay()
                         }
-                        composable("voyager_screen"){
+                        composable("voyager_screen") {
                             VoyagerNavigate()
+                        }
+                        composable("rating_screen") {
+                            RatingScreen()
                         }
                     }
                 }
@@ -119,7 +123,7 @@ fun FirstUi() {
                         textDecoration = TextDecoration.LineThrough,
                         fontSize = 30.sp
                     )
-                ){
+                ) {
                     append(" is written ")
                 }
 

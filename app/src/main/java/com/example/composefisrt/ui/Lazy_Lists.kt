@@ -120,6 +120,13 @@ fun HomeScreen(
                 Text(text = "Voyager Navigate")
             }
         }
+        item {
+            Button(onClick = {
+                navHostController.navigate("rating_screen")
+            }) {
+                Text(text = "Rating")
+            }
+        }
 
     }
 }
