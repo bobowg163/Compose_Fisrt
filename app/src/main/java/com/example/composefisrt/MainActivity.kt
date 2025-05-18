@@ -44,6 +44,7 @@ import com.example.composefisrt.ui.ProfileScreen
 import com.example.composefisrt.ui.RatingScreen
 import com.example.composefisrt.ui.ScaffoldBottom
 import com.example.composefisrt.ui.VoyagerNavigate
+import com.example.composefisrt.ui.YoutubePlayerScreen
 import com.example.composefisrt.ui.theme.ComposeFirstTheme
 import com.example.composefisrt.ui.theme.font
 
@@ -97,6 +98,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("rating_screen") {
                             RatingScreen()
+                        }
+                        composable("youtube_screen") {
+                            YoutubePlayerScreen()
                         }
                     }
                 }

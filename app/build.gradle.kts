@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.voyager.tab)
     implementation(libs.voyager.navigator)
     implementation(libs.voyager.transitions)
+    implementation(libs.yt.dlp)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

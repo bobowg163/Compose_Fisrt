@@ -12,6 +12,7 @@ coil = "2.4.0"
 navigation-comp = "2.9.0"
 media3 = "1.6.1"
 voyagerVersion = "1.0.0"
+chromecast = "0.28"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,6 +40,7 @@ androidx-media3-exoplayer-hls = { group = "androidx.media3", name = "media3-exop
 voyager-navigator = { group = "cafe.adriel.voyager", name = "voyager-navigator", version.ref = "voyagerVersion" }
 voyager-tab = { group = "cafe.adriel.voyager", name = "voyager-tab-navigator", version.ref = "voyagerVersion" }
 voyager-transitions = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyagerVersion" }
+yt-dlp = { group = "com.pierfrancescosoffritti.androidyoutubeplayer", name = "chromecast-sender", version.ref = "chromecast" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

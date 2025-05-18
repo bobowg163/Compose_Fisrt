@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.media3:media3-datasource:1.6.1@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/5e12498a968eb6461ba1bb1872f38ad6/transformed/media3-datasource-1.6.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/0cea4904dede7bf6aa9976655380f4b9/transformed/media3-datasource-1.6.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/5e12498a968eb6461ba1bb1872f38ad6/transformed/media3-datasource-1.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/5e12498a968eb6461ba1bb1872f38ad6/transformed/media3-datasource-1.6.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/0cea4904dede7bf6aa9976655380f4b9/transformed/media3-datasource-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/0cea4904dede7bf6aa9976655380f4b9/transformed/media3-datasource-1.6.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

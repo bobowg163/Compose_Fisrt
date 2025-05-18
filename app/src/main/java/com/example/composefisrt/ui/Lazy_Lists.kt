@@ -57,7 +57,7 @@ fun HomeScreen(
         }
         item {
             Button(onClick = {
-                navHostController.navigate("lazy_grid_screen")
+                navHostController.navigate("youtube_screen")
             }) {
                 Text(text = "Lazy Grid")
             }
@@ -125,6 +125,13 @@ fun HomeScreen(
                 navHostController.navigate("rating_screen")
             }) {
                 Text(text = "Rating")
+            }
+        }
+        item {
+            Button(onClick = {
+                navHostController.navigate("youtube_screen")
+            }) {
+                Text(text = "Play youtube and local media")
             }
         }
 

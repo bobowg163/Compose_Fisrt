@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/35682d95102341acd2e552f596742b5f/transformed/core-12.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/35682d95102341acd2e552f596742b5f/transformed/core-12.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/35682d95102341acd2e552f596742b5f/transformed/core-12.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/com.pierfrancescosoffritti.androidyoutubeplayer/core/12.0.0/8609200bae43e531d838f1135e855aca642a0f58/core-12.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/com.pierfrancescosoffritti.androidyoutubeplayer/core/12.0.0/bb1615c8151102b789785ea29e3221ede2c3160c/core-12.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
