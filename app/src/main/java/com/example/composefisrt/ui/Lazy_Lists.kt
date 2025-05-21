@@ -134,6 +134,13 @@ fun HomeScreen(
                 Text(text = "Play youtube and local media")
             }
         }
+        item {
+            Button(onClick = {
+                navHostController.navigate("supportmulti_screen")
+            }) {
+                Text(text = "Support Multi-Screen")
+            }
+        }
 
     }
 }

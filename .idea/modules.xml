@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.androidTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.androidTest~1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.unitTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose Fisrt.Compose_Fisrt.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Compose_Fisrt.iml" filepath="$PROJECT_DIR$/.idea/modules/Compose_Fisrt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose_Fisrt.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose_Fisrt.app.main.iml" />
     </modules>
   </component>
 </project>

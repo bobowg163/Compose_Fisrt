@@ -41,6 +41,7 @@ import com.example.composefisrt.ui.Media3Explay
 import com.example.composefisrt.ui.MyViewModelScreen
 import com.example.composefisrt.ui.NavigateExample
 import com.example.composefisrt.ui.ProfileScreen
+import com.example.composefisrt.ui.ProfilesScreen
 import com.example.composefisrt.ui.RatingScreen
 import com.example.composefisrt.ui.ScaffoldBottom
 import com.example.composefisrt.ui.VoyagerNavigate
@@ -101,6 +102,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("youtube_screen") {
                             YoutubePlayerScreen()
+                        }
+                        composable("supportmulti_screen") {
+                            ProfilesScreen()
                         }
                     }
                 }

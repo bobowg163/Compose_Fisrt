@@ -16,3 +16,4 @@
 
 * Voyager 导航
 * 评星
+* 在 Jetpack Compose 中支持多种屏幕尺寸
