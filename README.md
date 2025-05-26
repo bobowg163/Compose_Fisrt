@@ -5,7 +5,7 @@
 **compose LazyColumn 的基本用法**
 
 1. AnimationScreen 基础动画
-2. CanvasExplame Canvas画布动画
+2. CanvasExample Canvas画布动画
 3. LaunchedEffect Compose 中的附带效应
 
 | 图像的         |         媒体播放 |
