@@ -1,8 +1,13 @@
 package com.example.composefisrt.ui
 
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.TopAppBarDefaults
@@ -11,7 +16,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.composefisrt.ui.Wallet.TopBar
+import androidx.compose.ui.unit.dp
+import com.example.composefisrt.ui.wallet.ActionsSection
+import com.example.composefisrt.ui.wallet.CardSection
+import com.example.composefisrt.ui.wallet.TopBar
 import com.example.composefisrt.ui.theme.ComposeFirstTheme
 
 /**
@@ -38,14 +46,24 @@ fun WalletScreen() {
             )
         },
     ) { paddingValues ->
-        MainScreen(modifier = Modifier
-            .fillMaxSize()
-            .padding(paddingValues))
+        MainScreen(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+        )
     }
 }
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
+    Column(modifier = modifier.verticalScroll(rememberScrollState())) {
+        Spacer(modifier = Modifier.height(30.dp))
+        CardSection(
+            modifier = Modifier.fillMaxWidth()
+        )
+        Spacer(modifier = Modifier.height(20.dp))
+        ActionsSection(modifier = Modifier.fillMaxWidth())
+    }
 
 }
 
