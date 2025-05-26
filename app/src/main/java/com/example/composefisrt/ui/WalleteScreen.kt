@@ -1,5 +1,6 @@
 package com.example.composefisrt.ui
 
+import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,10 +18,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.composefisrt.ui.theme.ComposeFirstTheme
 import com.example.composefisrt.ui.wallet.ActionsSection
 import com.example.composefisrt.ui.wallet.CardSection
+import com.example.composefisrt.ui.wallet.SpendingGraph
+import com.example.composefisrt.ui.wallet.SpendingSection
 import com.example.composefisrt.ui.wallet.TopBar
-import com.example.composefisrt.ui.theme.ComposeFirstTheme
 
 /**
  * 项目名称：Compose Fisrt
@@ -63,6 +66,14 @@ fun MainScreen(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(20.dp))
         ActionsSection(modifier = Modifier.fillMaxWidth())
+        Spacer(modifier = Modifier.height(20.dp))
+        SpendingSection(modifier = Modifier.fillMaxWidth())
+        Spacer(modifier = Modifier.height(20.dp))
+        SpendingGraph(modifier = Modifier
+            .fillMaxWidth()
+            .height(200.dp)
+            .padding(horizontal = 22.dp))
+        Spacer(modifier = Modifier.height(40.dp))
     }
 
 }
@@ -71,6 +82,14 @@ fun MainScreen(modifier: Modifier = Modifier) {
 @Preview
 @Composable
 private fun WalletScreenPreview() {
+    ComposeFirstTheme {
+        WalletScreen()
+    }
+}
+
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
+@Composable
+private fun WalletScreenPreviewDark() {
     ComposeFirstTheme {
         WalletScreen()
     }

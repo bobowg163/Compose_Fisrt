@@ -59,7 +59,7 @@ fun ActionsSection(modifier: Modifier = Modifier) {
         )
         ActionItem(
             icon = Icons.Outlined.GridView,
-            text = "发送",
+            text = "更多",
             color = Color.Gray.copy(0.35f),
         )
 
