@@ -13,6 +13,7 @@ navigation-comp = "2.9.0"
 media3 = "1.6.1"
 voyagerVersion = "1.0.0"
 chromecast = "0.28"
+composeCharts="0.2.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -41,6 +42,7 @@ voyager-navigator = { group = "cafe.adriel.voyager", name = "voyager-navigator",
 voyager-tab = { group = "cafe.adriel.voyager", name = "voyager-tab-navigator", version.ref = "voyagerVersion" }
 voyager-transitions = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyagerVersion" }
 yt-dlp = { group = "com.pierfrancescosoffritti.androidyoutubeplayer", name = "chromecast-sender", version.ref = "chromecast" }
+compose-charts = {group="io.github.bytebeats",name="compose-charts",version.ref="composeCharts"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

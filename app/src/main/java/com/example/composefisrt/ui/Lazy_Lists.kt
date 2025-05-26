@@ -141,6 +141,13 @@ fun HomeScreen(
                 Text(text = "Support Multi-Screen")
             }
         }
+        item {
+            Button(onClick = {
+                navHostController.navigate("wallet_screen")
+            }) {
+                Text(text = "Wallet App")
+            }
+        }
 
     }
 }

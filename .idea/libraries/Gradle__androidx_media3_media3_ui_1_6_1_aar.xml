@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.media3:media3-ui:1.6.1@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/19bfd55d5c8f2d1708aa1488f1150ba6/transformed/media3-ui-1.6.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/3a5e26b57f79c637a22d660dc0f44a4e/transformed/media3-ui-1.6.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/19bfd55d5c8f2d1708aa1488f1150ba6/transformed/media3-ui-1.6.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/19bfd55d5c8f2d1708aa1488f1150ba6/transformed/media3-ui-1.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/19bfd55d5c8f2d1708aa1488f1150ba6/transformed/media3-ui-1.6.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/3a5e26b57f79c637a22d660dc0f44a4e/transformed/media3-ui-1.6.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/3a5e26b57f79c637a22d660dc0f44a4e/transformed/media3-ui-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/3a5e26b57f79c637a22d660dc0f44a4e/transformed/media3-ui-1.6.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

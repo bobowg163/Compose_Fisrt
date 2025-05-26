@@ -17,3 +17,4 @@
 * Voyager 导航
 * 评星
 * 在 Jetpack Compose 中支持多种屏幕尺寸
+* 建一个理财的UI界面

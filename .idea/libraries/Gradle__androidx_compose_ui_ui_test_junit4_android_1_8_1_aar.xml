@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-test-junit4-android:1.8.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/55a1346336c5a6211507f4b845126351/transformed/ui-test-junit4-release/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/55a1346336c5a6211507f4b845126351/transformed/ui-test-junit4-release/res" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/55a1346336c5a6211507f4b845126351/transformed/ui-test-junit4-release/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/c2ac954a7c2e0dc523a4f44f246b0471/transformed/ui-test-junit4-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/c2ac954a7c2e0dc523a4f44f246b0471/transformed/ui-test-junit4-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/c2ac954a7c2e0dc523a4f44f246b0471/transformed/ui-test-junit4-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

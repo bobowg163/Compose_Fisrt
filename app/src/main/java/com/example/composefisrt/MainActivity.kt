@@ -45,6 +45,7 @@ import com.example.composefisrt.ui.ProfilesScreen
 import com.example.composefisrt.ui.RatingScreen
 import com.example.composefisrt.ui.ScaffoldBottom
 import com.example.composefisrt.ui.VoyagerNavigate
+import com.example.composefisrt.ui.WalletScreen
 import com.example.composefisrt.ui.YoutubePlayerScreen
 import com.example.composefisrt.ui.theme.ComposeFirstTheme
 import com.example.composefisrt.ui.theme.font
@@ -105,6 +106,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("supportmulti_screen") {
                             ProfilesScreen()
+                        }
+                        composable("wallet_screen") {
+                            WalletScreen()
                         }
                     }
                 }
