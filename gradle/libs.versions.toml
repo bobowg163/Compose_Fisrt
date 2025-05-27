@@ -14,7 +14,7 @@ media3 = "1.7.1"
 voyagerVersion = "1.0.0"
 chromecast = "0.28"
 composeCharts="0.2.1"
-haze="0.6.0"
+haze="1.6.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
