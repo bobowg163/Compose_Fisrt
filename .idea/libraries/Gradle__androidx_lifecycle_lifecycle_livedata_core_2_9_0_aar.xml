@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.9.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/66267cec7bde3a100457f8372286238e/transformed/lifecycle-livedata-core-2.9.0/res" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/66267cec7bde3a100457f8372286238e/transformed/lifecycle-livedata-core-2.9.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/66267cec7bde3a100457f8372286238e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b0cc402a74c3f0d8c455ea05dd96cea8/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b0cc402a74c3f0d8c455ea05dd96cea8/transformed/lifecycle-livedata-core-2.9.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b0cc402a74c3f0d8c455ea05dd96cea8/transformed/lifecycle-livedata-core-2.9.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

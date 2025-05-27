@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/15ab58ee2d3014da6a2d39d22e333868/transformed/lifecycle-viewmodel-savedstate-release/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/15ab58ee2d3014da6a2d39d22e333868/transformed/lifecycle-viewmodel-savedstate-release/res" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/15ab58ee2d3014da6a2d39d22e333868/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/64d4733b33f6b3325161ffd7b6a59b7d/transformed/lifecycle-viewmodel-savedstate-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/64d4733b33f6b3325161ffd7b6a59b7d/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/64d4733b33f6b3325161ffd7b6a59b7d/transformed/lifecycle-viewmodel-savedstate-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

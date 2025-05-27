@@ -43,6 +43,7 @@ import com.example.composefisrt.ui.NavigateExample
 import com.example.composefisrt.ui.ProfileScreen
 import com.example.composefisrt.ui.ProfilesScreen
 import com.example.composefisrt.ui.RatingScreen
+import com.example.composefisrt.ui.RentalCarsScreen
 import com.example.composefisrt.ui.ScaffoldBottom
 import com.example.composefisrt.ui.VoyagerNavigate
 import com.example.composefisrt.ui.WalletScreen
@@ -109,6 +110,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("wallet_screen") {
                             WalletScreen()
+                        }
+                        composable("rental_cars_screen"){
+                            RentalCarsScreen()
                         }
                     }
                 }

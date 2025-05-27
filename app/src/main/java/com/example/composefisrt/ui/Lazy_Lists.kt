@@ -148,7 +148,13 @@ fun HomeScreen(
                 Text(text = "Wallet App")
             }
         }
-
+        item {
+            Button(onClick = {
+                navHostController.navigate("rental_cars_screen")
+            }) {
+                Text(text = "Rental Cars App")
+            }
+        }
     }
 }
 

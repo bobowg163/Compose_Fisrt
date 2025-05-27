@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: io.github.bytebeats:compose-charts:0.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/bbb34dd42f64d7262bc62103d58de660/transformed/compose-charts-0.2.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/bbb34dd42f64d7262bc62103d58de660/transformed/compose-charts-0.2.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/0d76395836e3a469fcc5b4108fe51340/transformed/compose-charts-0.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/0d76395836e3a469fcc5b4108fe51340/transformed/compose-charts-0.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

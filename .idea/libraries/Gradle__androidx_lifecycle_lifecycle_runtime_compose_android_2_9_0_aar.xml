@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/8802b5330502fd52fb9e9fd9a2a535b5/transformed/lifecycle-runtime-compose-release/res" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/8802b5330502fd52fb9e9fd9a2a535b5/transformed/lifecycle-runtime-compose-release/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/8802b5330502fd52fb9e9fd9a2a535b5/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b56ca79b6e20b343dde4d411763be5f7/transformed/lifecycle-runtime-compose-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b56ca79b6e20b343dde4d411763be5f7/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b56ca79b6e20b343dde4d411763be5f7/transformed/lifecycle-runtime-compose-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

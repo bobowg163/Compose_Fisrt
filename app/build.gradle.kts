@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.voyager.transitions)
     implementation(libs.yt.dlp)
     implementation(libs.compose.charts)
+    implementation(libs.haze)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
