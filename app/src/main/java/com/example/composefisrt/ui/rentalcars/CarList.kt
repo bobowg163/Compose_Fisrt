@@ -7,6 +7,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -16,6 +17,8 @@ import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -35,6 +38,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.composefisrt.R
 import com.example.composefisrt.data.Car
+import com.example.composefisrt.data.luxuriousCars
 import com.example.composefisrt.ui.theme.ComposeFirstTheme
 import com.example.composefisrt.ui.theme.Secondary
 
@@ -52,9 +56,25 @@ import com.example.composefisrt.ui.theme.Secondary
 @Composable
 fun CarList(
     modifier: Modifier = Modifier,
-
+    paddingValues: PaddingValues
+) {
+    LazyColumn(
+        modifier = modifier,
+        contentPadding = PaddingValues(
+            top = paddingValues.calculateTopPadding() + 22.dp,
+            bottom = 90.dp
+        )
     ) {
-
+        itemsIndexed(luxuriousCars) { index, car ->
+            CarItem(
+                car = car,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(230.dp)
+            )
+            Spacer(modifier = Modifier.height(22.dp))
+        }
+    }
 }
 
 
@@ -106,12 +126,12 @@ private fun BuyButton(
     ) {
         Column {
             Text(
-                text ="${car.rentalDays} 天",
+                text = "${car.rentalDays} 天",
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.8f)
             )
             Text(
-                text ="$${car.price}.00 ",
+                text = "$${car.price}.00 ",
                 fontSize = 18.sp,
                 color = MaterialTheme.colorScheme.onBackground,
                 fontWeight = FontWeight.SemiBold
