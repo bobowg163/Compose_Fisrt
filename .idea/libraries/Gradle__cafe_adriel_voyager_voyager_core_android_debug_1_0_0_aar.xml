@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: cafe.adriel.voyager:voyager-core-android-debug:1.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b2f8dd3084d105266ac4ac23be26383b/transformed/voyager-core-debug/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/b2f8dd3084d105266ac4ac23be26383b/transformed/voyager-core-debug/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/1a235c9c346f96b2e5f455593260d33a/transformed/voyager-core-debug/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/1a235c9c346f96b2e5f455593260d33a/transformed/voyager-core-debug/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/cafe.adriel.voyager/voyager-core-android-debug/1.0.0/cabaa9400ec46f262b967efbf6d2be864a4d35c6/voyager-core-android-debug-1.0.0-javadoc.jar!/" />

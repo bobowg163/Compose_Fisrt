@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: dev.chrisbanes.haze:haze-android:1.6.2@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fdec5357291af0129190ca00f14ba87f/transformed/haze-release/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fdec5357291af0129190ca00f14ba87f/transformed/haze-release/res" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fdec5357291af0129190ca00f14ba87f/transformed/haze-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/2576744b68385970eef2bfc72a8b7983/transformed/haze-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/2576744b68385970eef2bfc72a8b7983/transformed/haze-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/2576744b68385970eef2bfc72a8b7983/transformed/haze-release/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/dev.chrisbanes.haze/haze-android/1.6.2/3a1e010fca3b1f636493784c21854a018aa8cbb5/haze-android-1.6.2-javadoc.jar!/" />

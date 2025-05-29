@@ -33,6 +33,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.composefisrt.ui.AnimationScreen
 import com.example.composefisrt.ui.CanvasExample
+import com.example.composefisrt.ui.HazeScreen
 import com.example.composefisrt.ui.HomeScreen
 import com.example.composefisrt.ui.LazyColumnScreen
 import com.example.composefisrt.ui.LazyGridScreen
@@ -107,6 +108,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("supportmulti_screen") {
                             ProfilesScreen()
+                        }
+                        composable("haze_screen") {
+                            HazeScreen()
                         }
                         composable("wallet_screen") {
                             WalletScreen()

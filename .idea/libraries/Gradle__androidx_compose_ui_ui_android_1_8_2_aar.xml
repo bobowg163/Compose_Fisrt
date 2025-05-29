@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-android:1.8.2@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/98f53a6e877b80eb1ae8c2ad95530337/transformed/ui-release/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/ce4883c711b2b87bf9d63edc990ccc2f/transformed/ui-release/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/98f53a6e877b80eb1ae8c2ad95530337/transformed/ui-release/res" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/98f53a6e877b80eb1ae8c2ad95530337/transformed/ui-release/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/98f53a6e877b80eb1ae8c2ad95530337/transformed/ui-release/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/ce4883c711b2b87bf9d63edc990ccc2f/transformed/ui-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/ce4883c711b2b87bf9d63edc990ccc2f/transformed/ui-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/ce4883c711b2b87bf9d63edc990ccc2f/transformed/ui-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

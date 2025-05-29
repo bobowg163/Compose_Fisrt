@@ -13,8 +13,8 @@ navigation-comp = "2.9.0"
 media3 = "1.7.1"
 voyagerVersion = "1.0.0"
 chromecast = "0.28"
-composeCharts="0.2.1"
-haze="1.6.2"
+composeCharts = "0.2.1"
+haze = "1.6.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -43,8 +43,9 @@ voyager-navigator = { group = "cafe.adriel.voyager", name = "voyager-navigator",
 voyager-tab = { group = "cafe.adriel.voyager", name = "voyager-tab-navigator", version.ref = "voyagerVersion" }
 voyager-transitions = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyagerVersion" }
 yt-dlp = { group = "com.pierfrancescosoffritti.androidyoutubeplayer", name = "chromecast-sender", version.ref = "chromecast" }
-compose-charts = {group="io.github.bytebeats",name="compose-charts",version.ref="composeCharts"}
-haze = {module="dev.chrisbanes.haze:haze",version.ref="haze"}
+compose-charts = { group = "io.github.bytebeats", name = "compose-charts", version.ref = "composeCharts" }
+haze = { group = "dev.chrisbanes.haze", name = "haze", version.ref = "haze" }
+haze-materials = { group = "dev.chrisbanes.haze", name = "haze-materials", version.ref = "haze" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

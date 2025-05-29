@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: io.coil-kt:coil-base:2.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fe9b3886149129f7f50db8a7be74f791/transformed/coil-base-2.4.0/res" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fe9b3886149129f7f50db8a7be74f791/transformed/coil-base-2.4.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/fe9b3886149129f7f50db8a7be74f791/transformed/coil-base-2.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/362b25adc16490adc02654e306dcac8d/transformed/coil-base-2.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/362b25adc16490adc02654e306dcac8d/transformed/coil-base-2.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/362b25adc16490adc02654e306dcac8d/transformed/coil-base-2.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/io.coil-kt/coil-base/2.4.0/e62d4c51a989af21b68e5bba567284a984b8be23/coil-base-2.4.0-javadoc.jar!/" />

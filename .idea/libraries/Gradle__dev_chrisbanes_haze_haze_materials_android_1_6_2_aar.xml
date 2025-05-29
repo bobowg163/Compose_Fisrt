@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.chrisbanes.haze:haze-materials-android:1.6.2@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/58167af98f155ab76498b50e023a08fa/transformed/haze-materials-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/58167af98f155ab76498b50e023a08fa/transformed/haze-materials-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/dev.chrisbanes.haze/haze-materials-android/1.6.2/b0fb104a030ca64359183e31f6c8ecbfafbe4174/haze-materials-android-1.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/modules-2/files-2.1/dev.chrisbanes.haze/haze-materials-android/1.6.2/22d221e5ca69812fd1337185dd1822f46bd8a424/haze-materials-android-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

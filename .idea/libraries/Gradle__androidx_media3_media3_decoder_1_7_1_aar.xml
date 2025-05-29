@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.media3:media3-decoder:1.7.1@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/1e955753c6357e46ecb8b5c9ebcbaa17/transformed/media3-decoder-1.7.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/a9e3e215b368d47d38b7af4a8a4e51d3/transformed/media3-decoder-1.7.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/1e955753c6357e46ecb8b5c9ebcbaa17/transformed/media3-decoder-1.7.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/1e955753c6357e46ecb8b5c9ebcbaa17/transformed/media3-decoder-1.7.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/a9e3e215b368d47d38b7af4a8a4e51d3/transformed/media3-decoder-1.7.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Android/Gradle/caches/8.11.1/transforms/a9e3e215b368d47d38b7af4a8a4e51d3/transformed/media3-decoder-1.7.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -63,6 +63,7 @@ dependencies {
     implementation(libs.yt.dlp)
     implementation(libs.compose.charts)
     implementation(libs.haze)
+    implementation(libs.haze.materials)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

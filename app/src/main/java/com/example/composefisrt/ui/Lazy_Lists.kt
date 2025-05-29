@@ -143,6 +143,13 @@ fun HomeScreen(
         }
         item {
             Button(onClick = {
+                navHostController.navigate("haze_screen")
+            }) {
+                Text(text = "Haze Screen")
+            }
+        }
+        item {
+            Button(onClick = {
                 navHostController.navigate("wallet_screen")
             }) {
                 Text(text = "Wallet App")
@@ -174,7 +181,7 @@ fun LazyRowScreen() {
         contentPadding = PaddingValues(16.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        itemsIndexed(item) { index, item ->
+        itemsIndexed(item) { _, item ->
             Spacer(modifier = Modifier.width(8.dp))
             RowItem(item = item)
             Spacer(modifier = Modifier.width(8.dp))
@@ -213,7 +220,7 @@ fun LazyColumnScreen() {
         contentPadding = PaddingValues(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        itemsIndexed(item) { index, item ->
+        itemsIndexed(item) { _, item ->
             ColumnItem(item = item)
             Spacer(modifier = Modifier.height(8.dp))
         }
@@ -250,7 +257,7 @@ fun LazyGridScreen() {
         contentPadding = PaddingValues(vertical = 16.dp),
         columns = GridCells.Fixed(3),
     ) {
-        itemsIndexed(item) { index, item ->
+        itemsIndexed(item) { _, item ->
             GridItem(item)
             Spacer(modifier = Modifier.height(8.dp))
         }
