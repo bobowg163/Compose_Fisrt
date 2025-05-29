@@ -162,6 +162,13 @@ fun HomeScreen(
                 Text(text = "Rental Cars App")
             }
         }
+        item {
+            Button(onClick = {
+                navHostController.navigate("login_screen")
+            }) {
+                Text(text = "Build Login")
+            }
+        }
     }
 }
 
