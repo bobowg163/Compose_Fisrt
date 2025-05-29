@@ -1,10 +1,13 @@
 package com.example.composefisrt.ui
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -17,6 +20,8 @@ import androidx.compose.foundation.text.input.TextObfuscationMode
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Check
 import androidx.compose.material.icons.outlined.Email
+import androidx.compose.material.icons.outlined.Lock
+import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalTextStyle
@@ -28,12 +33,16 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.composefisrt.R
 import com.example.composefisrt.ui.theme.ComposeFirstTheme
+import com.example.composefisrt.ui.uitl.AuthOption
 
 /*
 * 项目名称: Compose Fisrt
@@ -46,7 +55,82 @@ import com.example.composefisrt.ui.theme.ComposeFirstTheme
 
 @Composable
 fun LoginScreen() {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 20.dp),
+        verticalArrangement = Arrangement.SpaceAround
+    ) {
+        Column {
+            Image(
+                painter = painterResource(R.drawable.mhm1),
+                contentDescription = null,
+                contentScale = ContentScale.FillHeight,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .fillMaxWidth(0.25f)
+            )
+            Spacer(modifier = Modifier.height(16.dp))
+            Text(
+                text = "Login",
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 30.sp
+            )
+        }
 
+        MyTextField(
+            textFieldState = TextFieldState(),
+            hint = "Email",
+            leadingIcon = Icons.Outlined.Email,
+            trailingIcon = Icons.Outlined.Check,
+            keyboardType = KeyboardType.Email,
+            modifier = Modifier.fillMaxWidth()
+        )
+
+        MyTextField(
+            textFieldState = TextFieldState(),
+            hint = "Password",
+            leadingIcon = Icons.Outlined.Lock,
+            trailingText = "Forgot ?",
+            isPassword = true,
+            modifier = Modifier.fillMaxWidth()
+        )
+        Button(
+            onClick = {},
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(
+                text = "Login",
+                fontSize = 17.sp,
+                modifier = Modifier.padding(vertical = 8.dp)
+            )
+        }
+        Text(
+            text = "Or, login with...",
+            fontSize = 15.sp,
+            modifier = Modifier
+                .align(Alignment.CenterHorizontally)
+                .alpha(0.5f)
+        )
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceAround) {
+            AuthOption(image = R.drawable.google)
+            AuthOption(image = R.drawable.facebook)
+            AuthOption(image = R.drawable.apple, tint = MaterialTheme.colorScheme.onBackground)
+        }
+        Row(modifier = Modifier.align(Alignment.CenterHorizontally)) {
+            Text(
+                text = "Don't have an account? ",
+                fontSize = 16.sp,
+            )
+            Text(
+                text = "Register",
+                fontSize = 16.sp,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.clickable {  }
+            )
+        }
+        Spacer(modifier = Modifier.height(1.dp))
+    }
 }
 
 
@@ -236,7 +320,7 @@ fun PasswordTextField(
 }
 
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 private fun LoginScreenPreview() {
     ComposeFirstTheme {
